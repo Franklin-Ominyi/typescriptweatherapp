@@ -1,0 +1,43 @@
+.widget2 section.first {
+	border-top: 2px solid var(--primary-border);
+	border-bottom: 2px solid var(--primary-border);
+	padding: 15px 0;
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.widget2 section.first .item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.widget2 section.first .item p:last-child {
+	color: var(--secondary-black);
+	font-weight: 200;
+}
+
+.widget2 section.second {
+	border-bottom: 2px solid var(--primary-border);
+	padding: 15px 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.widget2 section.second .item-2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.widget2 section.second .item-2 p {
+	width: fit-content;
+}
+
+.widget2 section.second .item-2 p:first-child {
+	font-weight: 300;
+	color: var(--secondary-black);
+}

@@ -1,0 +1,20 @@
+.description {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.description .feels-like {
+	font-size: 60px;
+	font-weight: 600;
+}
+
+.description .desc {
+	font-weight: 500;
+	font-size: 20px;
+	text-transform: capitalize;
+}
+
+.description .high-low {
+	font-size: 16px;
+	font-weight: 300;
+}

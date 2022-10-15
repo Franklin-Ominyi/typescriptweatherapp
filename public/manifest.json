@@ -1,0 +1,38 @@
+{
+	"theme_color": "#000",
+	"background_color": "#000",
+	"display": "standalone",
+	"scope": "/",
+	"start_url": "/",
+	"name": "Weather Hunt",
+	"short_name": "Weather Hunt",
+	"description": "Get the current weather condition of any city you want.",
+	"icons": [
+		{
+			"src": "./maskable.png",
+			"sizes": "196x196",
+			"type": "image/png",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "./logo192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "./logo255.png",
+			"sizes": "255x255",
+			"type": "image/png"
+		},
+		{
+			"src": "./logo384.png",
+			"sizes": "384x384",
+			"type": "image/png"
+		},
+		{
+			"src": "./logo512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}

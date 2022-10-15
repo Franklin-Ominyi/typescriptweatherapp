@@ -1,0 +1,23 @@
+body {
+	min-height: 100vh;
+	background: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%) no-repeat;
+}
+
+.content {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.description-wrapper {
+	margin-top: 40px;
+}
+
+.widget-wrapper {
+	margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+	.content {
+		width: 90vw;
+	}
+}

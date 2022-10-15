@@ -1,0 +1,15 @@
+.loader {
+	margin: 0;
+	padding: 0;
+	background-color: #a6c1ee;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 10 !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	font-size: 20px;
+	color: var(--primary-white);
+}
